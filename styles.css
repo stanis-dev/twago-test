@@ -1,0 +1,26 @@
+:root {
+  background-color: #242424;
+  color: rgb(163, 163, 163);
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#mainSquare {
+  background-color: rgba(151, 151, 151, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
